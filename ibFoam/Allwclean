@@ -1,0 +1,6 @@
+#!/bin/bash
+
+wclean libso interpolate
+wclean libso find_neighbours
+wclean libso weight
+wclean

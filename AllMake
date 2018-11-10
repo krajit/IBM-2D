@@ -1,0 +1,17 @@
+#!/bin/sh
+
+
+# source OpenFoam location separately
+ 
+# compile testing solver
+cd ibFoam
+wmake
+cd ..
+
+# compile halfStepEulerDdtScheme
+cd HalfStepEulerDdtScheme
+wmake libso
+cd ..
+
+
+
